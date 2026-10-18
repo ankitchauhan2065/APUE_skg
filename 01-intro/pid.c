@@ -23,6 +23,7 @@
 
 int
 main() {
+  printf("Hello, this is a process!");
 	printf("Our process id is %d.\n", getpid());
 	return(EXIT_SUCCESS);
 }
